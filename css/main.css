@@ -1,0 +1,140 @@
+/*********************Basic********************/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+html{
+
+	background: url('wall2.jpg') no-repeat;
+	background-size: cover;
+}
+h1,h2,h3{
+	color: rgb(0, 0, 0);
+}
+img{
+	filter: drop-shadow(5px 5px 5px #000);
+}
+p{
+	margin-bottom: 20px;
+}
+/***************************************************/
+/******************title and logout*****************/
+.title{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+}
+.header {
+	background: transparent;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0; 
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	padding-bottom: 10px;
+	backdrop-filter: blur(15px);
+	border-bottom-color: rgb(64, 62, 62);
+	border-bottom-style:solid;
+}
+.logout{
+	float: right;
+	height: 30px;
+	margin-top: 15px;
+}
+/*************************************************/
+/**************Form input and text area***********/
+.input{
+	border-radius: 4px;
+	border: 1px solid rgb(12, 12, 12);  
+	margin-top: 4px;
+	height: 40px;
+}
+.area{
+	height: 100px;
+}
+/**********************************************/
+/*************Menus and tabs*******************/
+.tabsWraper {
+	box-shadow: 0px 5px 5px #000;
+	list-style-type: none;
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+.tabs a {
+	font-size: 18px;
+	height: 40px;
+	display: block;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(16, 15, 15);
+}
+.tabs a.active {
+	background:transparent;
+	color: #000;
+}
+.tabs a:hover {
+	background:transparent;
+	color: #000;
+}
+/*******************************************/
+/**************contents section*************/
+.contents{
+	background:transparent;
+	margin-left:21%;
+	padding:10px 16px;
+}
+/*********************************************/
+/****************Custom Button****************/
+.btn{  
+	font-size: 15px;
+	color: #000;  
+	background-color: #aaa;  
+	padding: 7px 15px 7px 15px;  
+	box-shadow: inset 0px 0px 20px 0px white;
+	border: 1px solid #333;
+	border-radius: 3px; 
+	font-weight: bold;
+	transition-delay: 0.6s ease;
+
+}  
+.btn:hover{
+	background-color: red; 
+	box-shadow: none;
+	color: white;
+	transition: 0.6s ease;
+}
+/********************************************/
+/****************Custom table****************/
+table {
+	border-collapse: collapse;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+}
+tr {
+	background-color: rgb(7, 7, 7);
+	color: #000;
+	text-align: left;
+}
+th{
+	padding: 12px 15px;
+	background-color: #009879;
+	color: #fff;
+	text-align: left;
+}
+td{
+	background-color: #aaa;
+	padding: 12px 15px;
+}
+/**********************************************/
